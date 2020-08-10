@@ -1,0 +1,9 @@
+.campground-item-description-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.campground-item-description-container p{
+  line-height: 1.5;
+}

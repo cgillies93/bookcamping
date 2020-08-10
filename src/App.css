@@ -1,0 +1,28 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Englebert', sans-serif;
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  font-family: 'Englebert', sans-serif;
+}
+
+button:hover,
+a:hover {
+  cursor: pointer;
+}

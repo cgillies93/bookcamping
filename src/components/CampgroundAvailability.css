@@ -1,0 +1,40 @@
+.campground-availability-container {
+  width: 80%;
+  margin: 1em auto;
+  max-width: 900px;
+}
+
+.table-wrapper {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.availability-table {
+  border: none;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.availability-table td,
+.availability-table th {
+  border: 1px solid black;
+  padding: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.table-header-row {
+  background-color: rgba(23, 126, 137, 0.5);
+}
+
+.button-wrapper {
+  border: none;
+}
+
+td button {
+  width: 100%;
+  height: 50px;
+  position: sticky;
+}

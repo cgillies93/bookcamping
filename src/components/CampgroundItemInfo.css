@@ -1,0 +1,32 @@
+.campground-item-info-container {
+  text-align: center;
+}
+
+.campground-item-info-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.campground-item-image {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+#map {
+  height: 200px;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.campground-item-contact-info {
+
+
+}
+
+.campground-item-amenities-info {
+
+}
