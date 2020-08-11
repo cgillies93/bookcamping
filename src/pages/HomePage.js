@@ -7,6 +7,7 @@ import Subscribe from '../components/Subscribe';
 
 
 class HomePage extends Component {
+
   render() {
 
     return (

@@ -2,7 +2,11 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: [
+    'webpack-dev-server/client?http://127.0.0.0:3000/dist/',
+    'webpack/hot/only-dev-server',
+    './src/index.js'
+  ],
   mode: 'development',
   module: {
     rules: [
@@ -24,6 +28,11 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.json5$/i,
+        loader: 'json5-loader',
+        type: 'javascript/auto',
+      },
     ],
   },
   resolve: { extensions: ['*', '.js', '.jsx'] },
@@ -33,6 +42,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
+    inline: true,
     contentBase: path.join(__dirname, 'public/'),
     port: 3000,
     publicPath: 'http://localhost:3000/dist/',

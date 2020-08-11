@@ -1,4 +1,5 @@
 import React , { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Search.css';
 
 import campingBackground from '../campingBackgroundCrop.jpg';
@@ -14,7 +15,9 @@ class Search extends Component {
           <h1>Rediscover The Outdoors</h1>
           <div className='search-input-wrapper'>
             <input className='search-input'
-                   type='text' placeholder='Where Are You Going?'/>
+                   type='text'
+                   placeholder='Where Are You Going?'
+                   />
           </div>
           <div className='checkin-date-wrapper'>
             <label htmlFor='checkin'>Check-In</label>
