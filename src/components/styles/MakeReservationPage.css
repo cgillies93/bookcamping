@@ -1,0 +1,126 @@
+.make-reservation-page-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+.reservation-info {
+  width: 80%;
+}
+
+.reservation-campground-info {
+  text-align: center;
+}
+
+.reservation-campground-image {
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.reservation-dates-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgba(23, 126, 137, 1);
+  border-radius: 3px;
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.dates-wrapper {
+  display: flex;
+}
+
+.reservation-date {
+  padding: 0.5em;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.reservation-date span {
+  font-weight: 800;
+}
+
+.reservation-sites,
+.reservation-add-ons {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation-campsites-table,
+.reservation-add-ons-table {
+  border: none;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-header-row {
+  background-color: rgba(23, 126, 137, 0.5);
+}
+
+.reservation-campsites-table td,
+.reservation-campsites-table th,
+.reservation-add-ons-table td,
+.reservation-add-ons-table th {
+  border: 1px solid black;
+  padding: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.reservation-personal-info {
+  text-align: center;
+}
+
+.reservation-info-form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.reservation-form-name-wrapper,
+.reservation-form-email-wrapper,
+.reservation-form-phone-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  text-align: left;
+}
+
+.reservation-info-form input {
+  border-radius: 2px;
+  padding: 0.3em;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.reservation-total-price {
+  font-weight: bold;
+}
+
+.confirm-reservation-button-wrapper button {
+  border-radius: 2px;
+  border: none;
+  padding: 0.3em;
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: rgba(23, 126, 137, 1);
+  color: white;
+}
