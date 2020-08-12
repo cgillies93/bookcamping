@@ -1,0 +1,10 @@
+.my-reservations-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-reservations-title {
+
+}

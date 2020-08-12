@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import getAmenity from '../amenities.js';
-import './CampgroundAmenities.css';
+import React from 'react';
+import getAmenity from '../../amenities.js';
+import '../styles/CampgroundAmenities.css';
 
 const CampgroundAmenities = ({ amenities }) => (
   <div className='campground-amenities-list'>

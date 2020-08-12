@@ -1,24 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import Search from '../components/Search';
-import TopDestinationsList from '../components/TopDestinationsList';
-import GetInspiredList from '../components/GetInspiredList';
-import Subscribe from '../components/Subscribe';
+import Search from '../components/ui/Search';
+import PopularCampgrounds from '../components/containers/PopularCampgrounds';
+import GetInspiredList from '../components/ui/GetInspiredList';
+import Subscribe from '../components/ui/Subscribe';
 
 
-class HomePage extends Component {
-
-  render() {
+const HomePage = () => {
 
     return (
         <div className='home-page-container'>
           <Search />
-          <TopDestinationsList />
+          <PopularCampgrounds />
           <GetInspiredList />
           <Subscribe />
         </div>
-    );
-  }
+    )
 }
 
 export default HomePage;

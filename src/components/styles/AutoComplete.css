@@ -1,0 +1,16 @@
+.autocomplete {
+  position: relative;
+}
+
+.suggestions {
+      position: absolute;
+      top: 2em;
+      left: 0;
+      width: 100px;
+      height: 100px;
+      max-height: 200px;
+      background-color: white;
+      overflow-y: scroll;
+      z-index: 3;
+
+}

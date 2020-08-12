@@ -1,13 +1,11 @@
-import React , { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import '../styles/Header.css';
 
 import Navigation from './Navigation';
-import logo from '../campingLogo.png';
+import logo from '../../campingLogo.png';
 
-class Header extends Component {
-
-  render() {
+const Header = () => {
 
     return (
       <header className='header-container'>
@@ -20,8 +18,7 @@ class Header extends Component {
         <Navigation />
         </div>
       </header>
-    );
-  }
+    )
 }
 
 export default Header;

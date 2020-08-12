@@ -62,7 +62,7 @@ export const allReservations = (state=[], action) => {
         ]
 
     case C.CANCEL_RESERVATION:
-      return state.filter(reservation => reservation.id !== action.payload.id)
+      return state.filter(reservation => reservation.reservationNumber !== action.payload.reservationNumber);
 
     default:
       return state
@@ -72,6 +72,9 @@ export const allReservations = (state=[], action) => {
 export const fetching = (state=false, action) => {
 
   switch(action.type) {
+
+    case C.FETCH_ACCOUNT:
+      return true
 
     case C.FETCH_CAMPGROUNDS:
       return true;

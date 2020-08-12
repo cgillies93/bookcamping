@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './CampgroundItem.css';
+import '../styles/CampgroundItem.css';
 
-class CampgroundItem extends Component {
-
-  render() {
-
-    const { campground } = this.props;
+const CampgroundItem = ({ campground }) => {
 
     return (
       <div className='campground-link-wrapper'>
@@ -29,8 +25,7 @@ class CampgroundItem extends Component {
           </div>
         </Link>
       </div>
-    );
-  }
+    )
 }
 
 export default CampgroundItem;

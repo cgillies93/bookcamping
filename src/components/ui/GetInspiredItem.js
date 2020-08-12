@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './GetInspiredItem.css';
+import '../styles/GetInspiredItem.css';
 
-import campingBackground from '../campingBackground.jpg';
+import campingBackground from '../../campingBackground.jpg';
 
 const GetInspiredItem = ({ inspiration }) => (
   <Link to='/article'>

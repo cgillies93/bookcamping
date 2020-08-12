@@ -1,5 +1,5 @@
 import React from 'react';
-import './CampgroundItemDescription.css';
+import '../styles/CampgroundItemDescription.css';
 
 const CampgroundItemDescription = () => (
   <section className='campground-item-description-container'>

@@ -9,6 +9,8 @@
       "coordinates": "50.310728, -119.188058",
       "website": "https://cedarfalls.ca",
       "phoneNumber": "250-558-1559",
+      "rating": 8.7,
+      "timesBooked": 32,
       "amenities": [
         "Sani-dump",
         "Picnic Tables",
@@ -41,6 +43,8 @@
       "coordinates": "50.310728, -119.188058",
       "website": "http://swanlakecampground.com",
       "phoneNumber": "250-545-2300",
+      "rating": 8.0,
+      "timesBooked": 10,
       "amenities": [
         "Sani-dump",
         "Picnic Tables",
@@ -72,6 +76,8 @@
       "coordinates": "50.310728, -119.188058",
       "website": "https://www.williamsonlakecampground.ca/",
       "phoneNumber": "250-837-8806",
+      "rating": 7.5,
+      "timesBooked": 10,
       "amenities": [
         "Sani-dump",
         "Picnic Tables",
@@ -103,6 +109,8 @@
       "coordinates": "50.310728, -119.188058",
       "website": "https://www.lamplightercampground.com/",
       "phoneNumber": "250-837-3385",
+      "rating": 9.0,
+      "timesBooked": 15,
       "amenities": [
         "Sani-dump",
         "Picnic Tables",
@@ -134,6 +142,8 @@
       "coordinates": "50.310728, -119.188058",
       "website": "https://www.capilanoriverrvpark.com/",
       "phoneNumber": "604-987-4722",
+      "rating": 7.3,
+      "timesBooked": 6,
       "amenities": [
         "Sani-dump",
         "Picnic Tables",
@@ -165,6 +175,8 @@
       "coordinates": "50.310728, -119.188058",
       "website": "http://bcparks.ca/explore/parkpgs/kekuli_bay/",
       "phoneNumber": "250-548-0076",
+      "rating": 8.9,
+      "timesBooked": 21,
       "amenities": [
         "Sani-dump",
         "Picnic Tables",
@@ -208,5 +220,13 @@
   "campgroundNames": {
     "fetching": false,
     "suggestions": ["Cedar Falls", "Capilano River RV Park"]
+  },
+  "account": {
+    "accountNumber": 1,
+    "personalInfo": {
+      "name": "Chris Gillies",
+      "phoneNumber": "123-456-7890",
+      "email": "example@email.com"
+    }
   }
 }

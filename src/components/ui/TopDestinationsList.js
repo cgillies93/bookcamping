@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import './TopDestinationsList.css';
+import React from 'react';
+import '../styles/TopDestinationsList.css';
 import TopDestinationItem from './TopDestinationItem';
-import campgrounds from '../campgrounds';
 
-class TopDestinationsList extends Component {
+const TopDestinationsList = ({ campgrounds }) => {
 
-  render() {
+    let sortedByTimesBooked = campgrounds.sort((a, b) =>  b.timesBooked - a.timesBooked)
+    let popularCampgrounds = sortedByTimesBooked.slice(0, 3)
 
     return (
       <section className='top-destinations-container'>
         <h2>Popular Campgrounds</h2>
         <div className='top-destinations-list-wrapper'>
         {
-          campgrounds.map(campground =>
+          popularCampgrounds.map(campground =>
             <TopDestinationItem
                  key={campground.id}
                  campground={campground}/>
@@ -20,8 +20,7 @@ class TopDestinationsList extends Component {
         }
         </div>
       </section>
-    );
-  }
+    )
 }
 
 export default TopDestinationsList;

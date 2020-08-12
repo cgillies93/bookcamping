@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import './GetInspiredList.css';
+import React from 'react';
+import '../styles/GetInspiredList.css';
 import GetInspiredItem from './GetInspiredItem';
 
-import inspirations from '../inspirations';
+import inspirations from '../../inspirations';
 
-class GetInspiredList extends Component {
-  render() {
+const GetInspiredList = () => {
 
     return (
       <section className='get-inspired-container'>
@@ -26,8 +25,7 @@ class GetInspiredList extends Component {
         </div>
       </section>
 
-    );
-  }
+    )
 }
 
 export default GetInspiredList;

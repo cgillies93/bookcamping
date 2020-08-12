@@ -1,12 +1,13 @@
-import React , { Component } from 'react';
+import React from 'react';
+import Autocomplete from './Autocomplete';
 import { Link } from 'react-router-dom';
-import './Search.css';
+import '../styles/Search.css';
 
-import campingBackground from '../campingBackgroundCrop.jpg';
+import campingBackground from '../../campingBackgroundCrop.jpg';
 
-class Search extends Component {
+const Search = ({ suggestions=[], onChange=f=>f, onClear=f=>f, fetching=false}) => {
 
-  render() {
+  let campground = ''
 
     return (
       <div className='search-outer-wrapper'>
@@ -32,8 +33,7 @@ class Search extends Component {
           </button>
         </div>
       </div>
-    );
-  }
+    )
 }
 
 export default Search;

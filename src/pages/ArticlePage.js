@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import './ArticlePage.css';
+import React from 'react';
+import '../components/styles/ArticlePage.css';
 
-class ArticlePage extends Component {
-  render() {
+const ArticlePage = () => {
 
     return (
         <div className='article-page-container'>
@@ -12,11 +11,10 @@ class ArticlePage extends Component {
             <h1>Article</h1>
           </div>
           <section className='article-body'>
-            
+
           </section>
         </div>
-    );
-  }
+    )
 }
 
 export default ArticlePage;

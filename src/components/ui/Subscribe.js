@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import './Subscribe.css';
+import React from 'react';
+import '../styles/Subscribe.css';
 
-class Subscribe extends Component {
-  render() {
+const Subscribe = () => {
     return (
       <section className='subscribe-container'>
         <h2>Subscribe</h2>
@@ -16,9 +15,7 @@ class Subscribe extends Component {
           <button className='subscribe-button'>Subscribe</button>
         </div>
       </section>
-
-    );
-  }
+    )
 }
 
 export default Subscribe;

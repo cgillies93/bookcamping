@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
-import ContactForm from '../components/ContactForm';
+import React from 'react';
+import ContactForm from '../components/ui/ContactForm';
 
-class ContactPage extends Component {
-  render() {
+const ContactPage = () => {
 
     return (
         <div className='contact-page-container'>
           <ContactForm />
         </div>
-    );
-  }
+    )
 }
 
 export default ContactPage;

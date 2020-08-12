@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import './ContactForm.css';
+import React from 'react';
+import '../styles/ContactForm.css';
 
-class ContactForm extends Component {
-  render() {
-
+const ContactForm = () => {
     return (
         <div className='contact-form-container'>
           <h1>Contact Us</h1>
@@ -27,8 +25,7 @@ class ContactForm extends Component {
               </div>
             </form>
         </div>
-    );
-  }
+    )
 }
 
 export default ContactForm;

@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import CampgroundsList from '../components/CampgroundsList';
+import CampgroundsList from '../components/containers/CampgroundsList';
 
-class CampgroundsPage extends Component {
-  render() {
+const CampgroundsPage = () => {
 
     return (
         <div className='campground-page-container'>
           <CampgroundsList />
         </div>
-    );
-  }
+    )
 }
 
 export default CampgroundsPage;

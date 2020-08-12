@@ -6,19 +6,18 @@ import {
 } from 'react-router-dom';
 
 import './App.css';
-import Header from './components/Header';
-import Search from './components/Search';
+import Header from './components/ui/Header';
+import Search from './components/ui/Search';
 import HomePage from './pages/HomePage';
 import CampgroundsPage from './pages/CampgroundsPage';
 import CampgroundItemPage from './pages/CampgroundItemPage';
 import ContactPage from './pages/ContactPage';
 import ArticlePage from './pages/ArticlePage';
-import Sitemap from './components/Sitemap';
-import Footer from './components/Footer';
+import AccountPage from './pages/AccountPage';
+import Sitemap from './components/ui/Sitemap';
+import Footer from './components/ui/Footer';
 
-class App extends Component {
-
-  render() {
+const App = () => {
 
     return (
       <Router>
@@ -31,14 +30,14 @@ class App extends Component {
               <Route path='/campgrounds/:id' component={CampgroundItemPage} />
               <Route path='/contact' component={ContactPage} />
               <Route path='/article' component={ArticlePage} />
+              <Route path='/account' component={AccountPage} />
             </Switch>
             <Sitemap />
             <Footer />
           </main>
         </div>
       </Router>
-    );
-  }
+    )
 }
 
 export default hot(module)(App);
