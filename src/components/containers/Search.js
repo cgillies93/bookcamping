@@ -1,13 +1,22 @@
 import Search from '../ui/Search';
 import { connect } from 'react-redux';
-import { suggestCampgroundNames } from '../../actions';
+import { setQuery } from '../../actions';
 
 const mapStateToProps = (state) => {
   return {
-    campgrounds: state.campgrounds
+    query: state.query
   }
 }
 
-const Container = connect(mapStateToProps)(Search);
+const mapDispatchToProps = dispatch =>
+  ({
+    onSetQuery(query) {
+      dispatch(
+        setQuery(query)
+      )
+    }
+  })
+
+const Container = connect(mapStateToProps, mapDispatchToProps)(Search);
 
 export default Container;

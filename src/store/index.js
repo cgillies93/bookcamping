@@ -12,7 +12,7 @@ const consoleMessages = store => next => action => {
 
   result = next(action);
 
-  let { allCampgrounds, allReservations, errors, campgroundNames } = store.getState();
+  let { allCampgrounds, allReservations, errors, campgroundNames, query } = store.getState();
 
   console.log(`
 
@@ -21,6 +21,7 @@ const consoleMessages = store => next => action => {
       fetching: ${campgroundNames.fetching}
       suggestions: ${campgroundNames.suggestions}
       errors: ${errors.length}
+      query: ${query.length}
 
     `)
 

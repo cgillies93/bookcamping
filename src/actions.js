@@ -80,6 +80,13 @@ export function clearError(index) {
   }
 }
 
+export function setQuery(query) {
+
+  return {
+    type: C.SET_QUERY,
+    payload: query
+  }
+}
 
 
 

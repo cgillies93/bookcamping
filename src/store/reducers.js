@@ -12,6 +12,11 @@ export const reservation = (state=null, action) =>
     action.payload :
     state
 
+export const query = (state='', action) =>
+  (action.type === C.SET_QUERY) ?
+    action.payload :
+    state
+
 
 export const errors = (state=[], action) => {
 
@@ -44,8 +49,6 @@ export const allCampgrounds = (state=[], action) => {
     case C.REMOVE_CAMPGROUND:
       return state.filter(campground => campground.id !== action.payload.id);
 
-    case C.DISPLAY_CAMPGROUND:
-      return state.find(campground => campground.id === action.payload.id);
 
     default:
       return state;
@@ -125,6 +128,7 @@ export default combineReducers({
   allCampgrounds,
   allReservations,
   errors,
+  query,
   campgroundNames: combineReducers({
     fetching,
     suggestions

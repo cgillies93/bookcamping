@@ -7,7 +7,6 @@ const CampgroundsList = ({ campgrounds }) => {
   return (
 
     <section className='campgrounds-list'>
-      <h1>Campgrounds</h1>
       {
         campgrounds.map(campground => (
           <div key={campground.id} className='campground-item-wrapper'>

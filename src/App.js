@@ -9,7 +9,7 @@ import './App.css';
 import Header from './components/ui/Header';
 import Search from './components/ui/Search';
 import HomePage from './pages/HomePage';
-import CampgroundsPage from './pages/CampgroundsPage';
+import CampgroundsPage from './components/containers/CampgroundsPage';
 import CampgroundItemPage from './components/containers/CampgroundItemPage';
 import ContactPage from './pages/ContactPage';
 import ArticlePage from './pages/ArticlePage';
@@ -28,6 +28,7 @@ const App = () => {
             <Switch>
               <Route exact path='/' component={HomePage} />
               <Route exact path='/campgrounds' component={CampgroundsPage} />
+              <Route exact path='/campgrounds/?search=:query' component={CampgroundsPage} />
               <Route exact path='/campgrounds/:id' component={CampgroundItemPage} />
               <Route path='/campgrounds/:id/reservation' component={MakeReservationPage} />
               <Route path='/contact' component={ContactPage} />

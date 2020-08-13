@@ -5,17 +5,23 @@ import '../styles/Search.css';
 
 import campingBackground from '../../campingBackgroundCrop.jpg';
 
-const Search = () => {
+const Search = ({ query, onSetQuery=f=>f }) => {
+
+  let _input
 
     return (
       <div className='search-outer-wrapper'>
         <img src={campingBackground} className='background-image'/>
-        <div className='search-container'>
+        <form className='search-container'>
           <h1>Rediscover The Outdoors</h1>
           <div className='search-input-wrapper'>
             <input className='search-input'
+                   ref={input => _input = input}
                    type='text'
                    placeholder='Where Are You Going?'
+                   onChange={() => onSetQuery(_input.value)}
+                   value={query === '' ? '' : query}
+                   required
                    />
           </div>
           <div className='checkin-date-wrapper'>
@@ -26,10 +32,10 @@ const Search = () => {
             <label htmlFor='checkout'>Check-Out</label>
             <input className='checkout-date' name='checkout' type='date'/>
           </div>
-          <button className='search-button'>
+          <Link to={'/campgrounds/?search=' + query} className='search-link'>
             Search
-          </button>
-        </div>
+          </Link>
+        </form>
       </div>
     )
 }

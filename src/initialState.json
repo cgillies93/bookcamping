@@ -216,6 +216,7 @@
       "totalPrice": 25.00
     }
   ],
+  "query": ["Cedar"],
   "errors": [],
   "campgroundNames": {
     "fetching": false,

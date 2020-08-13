@@ -1,12 +1,25 @@
 import React from 'react';
+import CampgroundsList from '../components/ui/CampgroundsList';
+import '../components/styles/CampgroundsPage.css';
 
-import CampgroundsList from '../components/containers/CampgroundsList';
+const CampgroundsPage = ({query, campgrounds}) => {
 
-const CampgroundsPage = () => {
+  let filteredCampgrounds = campgrounds.filter(campground =>
+    campground.city.toLowerCase().includes(query) ||
+    campground.name.toLowerCase().includes(query) ||
+    campground.province.toLowerCase().includes(query))
+
+  console.log(filteredCampgrounds)
+  console.log(query)
 
     return (
-        <div className='campground-page-container'>
-          <CampgroundsList />
+        <div className='campgrounds-page-container'>
+            <h1>Campgrounds</h1>
+            { query !== '' ?
+              <p><strong>{filteredCampgrounds.length}</strong> search results for campgrounds near <strong>{query}</strong></p> :
+              null
+            }
+            <CampgroundsList campgrounds={filteredCampgrounds} />
         </div>
     )
 }
