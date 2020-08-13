@@ -1,20 +1,30 @@
 import React from 'react';
 import '../styles/CampgroundsList.css';
 import CampgroundItem from './CampgroundItem';
+import PopularCampgroundsList from './PopularCampgroundsList';
+import RecommendedForYou from './RecommendedForYou';
 
-const CampgroundsList = ({ campgrounds }) => {
+const CampgroundsList = ({ query, campgrounds }) => {
+
 
   return (
 
-    <section className='campgrounds-list'>
+    <div className='campgrounds-list'>
       {
-        campgrounds.map(campground => (
-          <div key={campground.id} className='campground-item-wrapper'>
-            <CampgroundItem campground={campground}/>
-          </div>
-        ))
+        query === '' ?
+        <section className=''>
+          <RecommendedForYou campgrounds={campgrounds}/>
+          <PopularCampgroundsList campgrounds={campgrounds}/>
+        </section>
+        :
+          campgrounds.map(campground => (
+            <div key={campground.id} className='campground-item-wrapper'>
+              <CampgroundItem campground={campground}/>
+            </div>
+          ))
+
       }
-      </section>
+      </div>
 
   )
 
