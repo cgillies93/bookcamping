@@ -80,28 +80,6 @@ export function clearError(index) {
   }
 }
 
-export const suggestCampgroundNames = value => dispatch => {
-
-  value = value.toLowerCase();
-
-  dispatch({
-    type: C.FETCH_CAMPGROUNDS
-  })
-
-  let suggestions = [];
-
-  let temp = Campgrounds.map(campground =>{
-    if(campground.name.toLowerCase().includes(value) === true) {
-      suggestions.push(campground.name)
-    }
-  });
-
-  dispatch({
-    type: C.CHANGE_SUGGESTIONS,
-    payload: suggestions
-  })
-}
-
 
 
 
