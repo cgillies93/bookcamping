@@ -4,27 +4,10 @@ import { suggestCampgroundNames } from '../../actions';
 
 const mapStateToProps = (state) => {
   return {
-    suggestions: state.campgroundNames.suggestions
-    fetching: state.campgroundNames.fetching
+    campgrounds: state.campgrounds
   }
 }
 
-const mapDispatchToProps = dispatch => ({
-
-  onChange(value) {
-    if(value) {
-      console.log(value)
-      dispatch(
-        suggestCampgroundNames(value)
-      )
-    } else {
-      dispatch(
-        clearSuggestions()
-      )
-    }
-  }
-})
-
-const Container = connect(mapStateToProps, mapDispatchToProps)(Search);
+const Container = connect(mapStateToProps)(Search);
 
 export default Container;

@@ -1,0 +1,14 @@
+.account-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.account-details-link {
+  text-decoration: underline;
+  font-size: 0.8em;
+  color: blue;
+}

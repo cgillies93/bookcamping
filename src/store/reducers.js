@@ -44,6 +44,9 @@ export const allCampgrounds = (state=[], action) => {
     case C.REMOVE_CAMPGROUND:
       return state.filter(campground => campground.id !== action.payload.id);
 
+    case C.DISPLAY_CAMPGROUND:
+      return state.find(campground => campground.id === action.payload.id);
+
     default:
       return state;
   }

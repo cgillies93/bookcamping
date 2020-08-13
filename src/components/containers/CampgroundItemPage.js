@@ -1,4 +1,4 @@
-import PopularCampgroundsList from '../ui/PopularCampgroundsList';
+import CampgroundItemPage from '../../pages/CampgroundItemPage';
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => {
@@ -7,6 +7,8 @@ const mapStateToProps = (state) => {
   }
 }
 
-const Container = connect(mapStateToProps)(PopularCampgroundsList);
+
+
+const Container = connect(mapStateToProps)(CampgroundItemPage);
 
 export default Container;

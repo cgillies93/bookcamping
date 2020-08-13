@@ -33,8 +33,17 @@
   border: none;
 }
 
-td button {
-  width: 100%;
-  height: 50px;
-  position: sticky;
+td a {
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(23, 126, 137, 1);
+}
+
+td a:hover {
+  color: rgba(23, 126, 137, 1);
+  background-color: transparent;
+  outline: 1px solid black;
 }

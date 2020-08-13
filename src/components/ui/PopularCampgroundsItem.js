@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../styles/TopDestinationItem.css';
+import '../styles/PopularCampgroundsItem.css';
 
-const TopDestinationItem = ({ campground }) => (
+const PopularCampgroundsItem = ({ campground }) => (
   <Link className='top-destination-link' to={'/campgrounds/' + campground.id}>
     <div className='top-destination-item-container'>
       <div className='top-destination-image'></div>
@@ -16,4 +16,4 @@ const TopDestinationItem = ({ campground }) => (
 
 );
 
-export default TopDestinationItem;
+export default PopularCampgroundsItem;

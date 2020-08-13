@@ -4,14 +4,9 @@ import CampgroundItemDescription from '../components/ui/CampgroundItemDescriptio
 import CampgroundAvailability from '../components/ui/CampgroundAvailability';
 import '../components/styles/CampgroundItemPage.css';
 
-import campgrounds from '../campgrounds.js';
-
-class CampgroundItemPage extends Component {
-  render() {
-
-    const { match } = this.props;
-    const id = parseInt(match.params.id);
-    const campground = campgrounds.find(campground => campground.id === id);
+const CampgroundItemPage = ({ match, campgrounds }) => {
+  let id = parseInt(match.params.id)
+  const campground = campgrounds.find(campground => campground.id === id)
 
     return (
         <div className='campground-item-page-container'>
@@ -19,10 +14,9 @@ class CampgroundItemPage extends Component {
           </section>
           <CampgroundItemInfo campground={campground} />
           <CampgroundItemDescription />
-          <CampgroundAvailability />
+          <CampgroundAvailability siteTypes={campground.siteTypes}/>
         </div>
-    );
-  }
+    )
 }
 
 export default CampgroundItemPage;

@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/TopDestinationsList.css';
-import TopDestinationItem from './TopDestinationItem';
+import '../styles/PopularCampgroundsList.css';
+import PopularCampgroundsItem from './PopularCampgroundsItem';
 
-const TopDestinationsList = ({ campgrounds }) => {
+const PopularCampgroundsList = ({ campgrounds }) => {
 
     let sortedByTimesBooked = campgrounds.sort((a, b) =>  b.timesBooked - a.timesBooked)
     let popularCampgrounds = sortedByTimesBooked.slice(0, 3)
@@ -13,7 +13,7 @@ const TopDestinationsList = ({ campgrounds }) => {
         <div className='top-destinations-list-wrapper'>
         {
           popularCampgrounds.map(campground =>
-            <TopDestinationItem
+            <PopularCampgroundsItem
                  key={campground.id}
                  campground={campground}/>
           )
@@ -23,4 +23,4 @@ const TopDestinationsList = ({ campgrounds }) => {
     )
 }
 
-export default TopDestinationsList;
+export default PopularCampgroundsList;

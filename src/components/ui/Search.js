@@ -5,9 +5,7 @@ import '../styles/Search.css';
 
 import campingBackground from '../../campingBackgroundCrop.jpg';
 
-const Search = ({ suggestions=[], onChange=f=>f, onClear=f=>f, fetching=false}) => {
-
-  let campground = ''
+const Search = () => {
 
     return (
       <div className='search-outer-wrapper'>

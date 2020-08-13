@@ -220,13 +220,5 @@
   "campgroundNames": {
     "fetching": false,
     "suggestions": ["Cedar Falls", "Capilano River RV Park"]
-  },
-  "account": {
-    "accountNumber": 1,
-    "personalInfo": {
-      "name": "Chris Gillies",
-      "phoneNumber": "123-456-7890",
-      "email": "example@email.com"
-    }
   }
 }

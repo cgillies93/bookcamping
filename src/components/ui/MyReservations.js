@@ -7,13 +7,14 @@ const MyReservations = ({ reservations }) => {
 
     return (
         <div className='my-reservations-container'>
-          <h2 className='my-reservations-title'>My Reservations</h2>
+          <h3 className='my-reservations-title'>Upcoming Reservations</h3>
           {
             reservations.map(reservation => (
               <ReservationItem key={reservation.reservationNumber}
                                reservation={reservation} />
             ))
           }
+          <h3>Past Reservations</h3>
         </div>
     )
 }
