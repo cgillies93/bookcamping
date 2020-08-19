@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
 import sampleData from './initialState.json';
-
 import storeFactory from './store';
 import { Provider } from 'react-redux';
 
