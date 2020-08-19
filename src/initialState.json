@@ -214,9 +214,23 @@
       "checkinDate": "2020-08-14",
       "checkoutDate": "2020-08-16",
       "totalPrice": 25.00
+    },
+    {
+      "reservationNumber": 2,
+      "camgroundName": "Kekuli Bay Provincial Park Campground",
+      "sites":[
+        {
+          "type":"Tent Area",
+          "price": 25.00,
+          "numberOfSites": 1
+        }
+      ],
+      "checkinDate": "2020-08-11",
+      "checkoutDate": "2020-08-12",
+      "totalPrice": 25.00
     }
   ],
-  "query": ["Cedar"],
+  "query": [""],
   "errors": [],
   "campgroundNames": {
     "fetching": false,

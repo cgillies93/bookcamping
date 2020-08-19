@@ -7,9 +7,9 @@ const AccountPage = () => {
 
     return (
         <div className='account-page-container'>
-          <div className='article-title'>
+          <div className='account-page-wrapper'>
             <h1>Account</h1>
-            <section>
+            <section className='account-page-personal'>
               <p>Christopher Gillies</p>
               <p>example@email.com</p>
               <a className='account-details-link'>Account Details</a>

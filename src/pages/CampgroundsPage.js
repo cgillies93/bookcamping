@@ -6,9 +6,9 @@ const CampgroundsPage = ({query, campgrounds, onSetQuery=f=>f}) => {
 
 
   let filteredCampgrounds = campgrounds.filter(campground =>
-    campground.city.toLowerCase().includes(query) ||
-    campground.name.toLowerCase().includes(query) ||
-    campground.province.toLowerCase().includes(query))
+    campground.city.toLowerCase().includes(query.toLowerCase()) ||
+    campground.name.toLowerCase().includes(query.toLowerCase()) ||
+    campground.province.toLowerCase().includes(query.toLowerCase()))
 
   console.log(filteredCampgrounds)
   console.log(query)

@@ -1,10 +1,15 @@
 .account-page-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.account-page-wrapper {
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 .account-details-link {

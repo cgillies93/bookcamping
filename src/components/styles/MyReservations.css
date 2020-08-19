@@ -1,8 +1,5 @@
 .my-reservations-container {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .my-reservations-title {
