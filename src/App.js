@@ -1,44 +1,41 @@
-// @flow
 import React, { Component } from 'react';
-import { hot } from 'react-hot-loader';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import { BrowserRouter as Router,
+         Route, Switch } from 'react-router-dom';
+import Header from './components/Header/Header';
+import HomePage from './pages/HomePage/HomePage';
+import CampgroundsPage from './pages/CampgroundsPage/CampgroundsPage';
+import CampgroundPage from './pages/CampgroundPage/CampgroundPage';
+import ContactPage from './pages/ContactPage/ContactPage';
+import SearchResultsPage from './pages/SearchResultsPage/SearchResultsPage';
+import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
-import Header from './components/ui/Header';
-import Search from './components/ui/Search';
-import HomePage from './pages/HomePage';
-import CampgroundsPage from './components/containers/CampgroundsPage';
-import CampgroundItemPage from './components/containers/CampgroundItemPage';
-import ContactPage from './pages/ContactPage';
-import ArticlePage from './pages/ArticlePage';
-import AccountPage from './pages/AccountPage';
-import MakeReservationPage from './pages/MakeReservationPage';
-import Sitemap from './components/ui/Sitemap';
-import Footer from './components/ui/Footer';
 
-const App = () => {
+class App extends Component {
 
-    return (
-      <Router>
-        <div className='app'>
-          <main>
-            <Header />
-            <Switch>
-              <Route exact path='/' component={HomePage} />
-              <Route exact path='/campgrounds' component={CampgroundsPage} />
-              <Route exact path='/campgrounds/?search=:query' component={CampgroundsPage} />
-              <Route exact path='/campgrounds/:id' component={CampgroundItemPage} />
-              <Route path='/campgrounds/:id/reservation' component={MakeReservationPage} />
-              <Route path='/contact' component={ContactPage} />
-              <Route path='/article' component={ArticlePage} />
-              <Route path='/account' component={AccountPage} />
-            </Switch>
-            <Sitemap />
-            <Footer />
-          </main>
-        </div>
-      </Router>
-    )
+    render() {
+
+        return(
+            <Router>
+                <ScrollToTop />
+                <div className='app'>
+                    <Header />
+                    <Switch>
+                        <Route exact path='/' component={HomePage} />
+                        <Route exact path='/campgrounds'
+                                     component={CampgroundsPage} />
+                        <Route path='/campgrounds/?search=:query'
+                               component={SearchResultsPage} />
+                        <Route exact path='/campgrounds/:name'
+                               component={CampgroundPage} />
+                        <Route path='/contact' component={ContactPage} />
+                    </Switch>
+                    <Footer />
+                </div>
+            </Router>
+
+        );
+    }
 }
 
-export default hot(module)(App);
+export default App;

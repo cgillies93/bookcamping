@@ -1,0 +1,43 @@
+.contact-form-wrapper {
+  text-align: center;
+  min-height: 618px;
+}
+
+.contact-form-inner-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-form-name-wrapper,
+.contact-form-email-wrapper,
+.contact-form-message-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form-input {
+  padding: 0.5em;
+  border-radius: 2px;
+}
+
+.contact-form-textarea {
+  height: 200px;
+  padding: 0.5em;
+  border-radius: 2px;
+}
+
+.contact-form-button-wrapper {
+  padding: 1em 0;
+}
+
+.contact-form-send-button {
+  width: 50%;
+  padding: 1em;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background-color: rgba(23, 126, 137, 1);
+}

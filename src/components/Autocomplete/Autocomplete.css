@@ -1,0 +1,28 @@
+.autocomplete-wrapper {
+    position: absolute;
+    background: white;
+    color: black;
+    top: 50px;
+    width: 100%;
+}
+
+.autocomplete-wrapper ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+
+
+}
+
+.autocomplete-wrapper button {
+    display: flex;
+    width: 100%;
+    padding: 0.5em 0.7em;
+    border-top: none;
+    font-size: 24px;
+}
+
+.autocomplete-wrapper button:hover {
+    background: rgba(23, 126, 137, 1);
+    color: white;
+}
