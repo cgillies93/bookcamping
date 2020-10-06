@@ -1,0 +1,1427 @@
+{
+    "campgrounds": [
+        {
+            "name": "Beaver Point Resort",
+            "city": "Burns Lake",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0J 1E0",
+            "address": "16278 Hwy 35",
+            "lat": "54.092770",
+            "lon": "-125.721252",
+            "featured": 1,
+            "description": "Nestled on the shores of Tchesinkut Lake, Beaver Point Resort rests on a large, beautiful property surrounded by lush forests. We are a family-oriented campground, ideal for families to spend quality time and create unforgettable memories. We have different types of accommodations to suit all needs, including cabins, cottages, and campsites. All are located along the lakeshore and have fantastic views of the lake and wilderness. Our family campground has grassed sites with electricity and water, as well sites with full-service hook-ups and gravel pads. Stay in our rustic cabins which features electric lights, fridge and heaters. A propane cookstove is provided to create delicious meals. The cozy cottages are equipped with a kitchen and comfortable beds. Choose from our one or two bedroom cottages, whichever suits your needs. We have various amenities throughout the resort to create a comfortable experience. Bring your boat as we have a fantastic boat launch and boat trailer storage. We have boats, motors and kayaks available for rent. Spend your summer days by the lake with the whole family.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Boat Ramp/Launch",
+                "Fishing",
+                "Laundry/Laundromat",
+                "Boat Rental",
+                "Water Front",
+                "30 Amp Service",
+                "Dump/Sani Station",
+                "Restroom",
+                "Wifi",
+                "Pets Welcome",
+                "Pull-thrus",
+                "Seasonal Campsites",
+                "Sewer on Site",
+                "Showers",
+                "Telephone",
+                "Water on Site"
+            ],
+            "sites": [
+                {
+                    "type": "Campsite",
+                    "name": "Partial Service RV Sites - Electric and Water",
+                    "numAvail": 28,
+                    "priceNight": 30,
+                    "priceWeek": 203
+                },
+                {
+                    "type": "Campsite",
+                    "name": "Full Service RV Sites (Water, Sewer and 30 Amp Service)",
+                    "numAvail": 9,
+                    "priceNight": 34,
+                    "priceWeek": 231
+                },
+                {
+                    "type": "Cabin",
+                    "name": "One Room Cabin",
+                    "priceNight": 50
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Two Bedroom Cabin With Loft",
+                    "priceNight": 90
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 695-6519",
+                    "numType": "main"
+                },
+                {
+                    "number": "(866) 648-9788",
+                    "numType": "toll-free"
+                },
+                {
+                    "number": "(250) 695-6933",
+                    "numType": "fax"
+                }
+
+            ],
+            "website": "http://beaverpointresort.ca/"
+        },
+        {
+            "name": "Capilano River RV Park",
+            "city": "North Vancouver",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V7P 1C5",
+            "address": "295 Tomahawk Ave.",
+            "lat": "49.324590",
+            "lon": "-123.131950",
+            "featured": 1,
+            "description": "RV parking & camping in Vancouver, also tenting. The most direct in Vancouver on Hwy 1. Exit Capilano Road S. Or Hwy 99 Exit N. Van. Off Lions Gate Bridge. OAP rates, special winter rates.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Handicap Accessible",
+                "Hottub",
+                "Laundry/Laundromat",
+                "Pool - Outdoor",
+                "Playground",
+                "30 Amp Service",
+                "50 Amp Service",
+                "Dump/Sani Station",
+                "Restroom",
+                "Wifi",
+                "Pets Welcome",
+                "Propane ($)",
+                "Seasonal Campsites",
+                "Sewer on Site",
+                "Showers",
+                "Telephone",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(604) 987-4722",
+                    "numType": "main"
+                },
+                {
+                    "number": "(866) 477-4722",
+                    "numType": "toll-free"
+                },
+                {
+                    "number": "(604) 987-2015",
+                    "numType": "fax"
+                }
+            ],
+            "website": "http://www.capilanoriverrvpark.com"
+        },
+        {
+            "name": "Gallagher Lake | A Parkbridge Camping & RV Resort",
+            "city": "Oliver",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0H 1T2",
+            "address": "8439 Hwy 97",
+            "lat": "49.243564",
+            "lon": "-119.524243",
+            "featured": 1,
+            "description": "Located on the stunning Gallagher Lake in the South Okanagan Valley, Gallagher Lake RV Resort is surrounded by magnificent Ponderosa pines. The perfect destination for family camping, our resort is equipped with modern facilities to make a comfortable stay. With unmatched and consistent good weather, days will be spent at our private sandy beach soaking in the sun. Choose your choice of accommodation at Gallagher Lake RV Resort, whether it\u2019s a RV site, rustic tent sites or cabin rentals, we have your priorities covered. Take advantage of the array of amenities we provide, including a tennis court, internet, coffee bar and grocery store on site, and washroom facilities. Hop on your bike or enjoy a scenic walk along the beautiful trails that are located only a short distance away from our resort. Our family oriented resort is located 10 minutes from Oliver, and a close drive to Penticton and Osoyoos to visit award winning wineries and vineyards.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Swimming Beach",
+                "Store",
+                "Fishing",
+                "Laundry/Laundromat",
+                "Clubhouse",
+                "Water Front",
+                "30 Amp Service",
+                "50 Amp Service",
+                "Big Rig Friendly",
+                "Restroom",
+                "Full RV Hookups",
+                "Wifi",
+                "Pets Welcome",
+                "Propane ($)",
+                "Pull-thrus",
+                "Sewer on Site",
+                "Showers",
+                "Telephone",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "sites": [
+                {
+                    "type": "Campsite",
+                    "name": "Rustic Tent",
+                    "priceNight": 45,
+                    "priceWeek": 315
+                },
+                {
+                    "type": "RV",
+                    "name": "Partial Service",
+                    "priceNight": 59.50,
+                    "priceWeek": 416.50
+                },
+                {
+                    "type": "RV",
+                    "name": "Partial Service - Beach",
+                    "priceNight": 63.50,
+                    "priceWeek": 444.50
+                },
+                {
+                    "type": "RV",
+                    "name": "Full Service",
+                    "priceNight": 63.50,
+                    "priceWeek": 444.50
+                },
+                {
+                    "type": "RV",
+                    "name": "Full Service - Cable",
+                    "priceNight": 67,
+                    "priceWeek": 472.50
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Cabin Rental",
+                    "priceNight": 118.50,
+                    "priceWeek": 805
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 498-3358",
+                    "numType": "main"
+                }
+            ],
+            "website": "http://www.parkbridge.com/en-ca/rv-cottages/gallagher-lake"
+        },
+        {
+            "name": "Golden Golf Club RV Park",
+            "city": "Golden",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0A 1H0",
+            "address": "576 Golf Course Drive",
+            "lat": "51.330888",
+            "lon": "-117.008755",
+            "sites": "42 Sites",
+            "description": "Located in the Rocky Mountains, the Golden Golf Club R.V. Park is just minutes west of Golden, B.C. Adjacent the RV Park is our 18 hole golf course, practice facilities, restaurant, mini-golf course and in close proximity to Kicking Horse Mountain Resort, hiking, cycling trails and Golden Town Centre. CP 48 hours. Free WiFi.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Bar",
+                "Golfing",
+                "Restaurant",
+                "30 Amp Service",
+                "Pets Welcome",
+                "Seasonal Campsites",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "sites": [
+                {
+                    "type": "RV",
+                    "name": "RV Site",
+                    "priceNight": 34.95,
+                    "priceWeek": 223.65,
+                    "priceMonth": 538.50
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 344-2700",
+                    "numType": "main"
+                },
+                {
+                    "number": "(866) 727-7222",
+                    "numType": "toll-free"
+                },
+                {
+                    "number": "(250) 344-2922",
+                    "numType": "fax"
+                }
+
+            ],
+            "website": "http://www.golfgolden.com"
+        },
+        {
+            "name": "Rondalyn | A Parkbridge Camping & RV Resort",
+            "city": "Ladysmith",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V9G 1L5",
+            "address": "1350 Timberlands Road",
+            "lat": "49.041466",
+            "lon": "-123.902702",
+            "description": "A beautiful forested Parkbridge Resort with a big rig friendly park on Halsam Creek is the ideal destination for families to have a fun filled vacation. Offering year round accommodation, we welcome guests to stay with us during any season. Your RV and camping experience will be the best one yet at our resort, so book online for reservations! Whether your RV is a small or large, our partial or full service sites are spacious and private to suit any size RV. We have sites closer to amenities or more secluded, providing different options for every need. Don\u2019t have an RV? We offer an exclusive tenting area with secluded or open sites available. Our resort has easy access to four golf courses, hiking and biking trails, fishing, swimming and other attractions and activities. The kids will love our on-site playground, perfect to meet new friends! For your convenience, we have clean washrooms and showers, a heated pool, year round hot tub, nine hole golf course, and trout pond available for use.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Store",
+                "Fishing",
+                "Handicap Accessible",
+                "Hottub",
+                "Laundry/Laundromat",
+                "Meeting Facilities",
+                "Pool - Outdoor",
+                "Playground",
+                "Clubhouse",
+                "Restaurant",
+                "Snack Bar",
+                "Water Front",
+                "30 Amp Service",
+                "50 Amp Service",
+                "Big Rig Friendly",
+                "Dump/Sani Station",
+                "Restroom",
+                "Wifi",
+                "Pets Welcome",
+                "Pull-thrus",
+                "Seasonal Campsites",
+                "Sewer on Site",
+                "Showers",
+                "Water on Site",
+                "Winter Camping",
+                "Balcony",
+                "Kitchenette",
+                "Non-smoking Rooms",
+                "TV In Rooms"
+            ],
+            "sites": [
+                {
+                    "type": "Campsite",
+                    "name": "Partial Service - 15 Amp",
+                    "priceNight": 45,
+                    "priceWeek": 280
+                },
+                {
+                    "type": "RV",
+                    "name": "Partial Service - Creekside",
+                    "priceNight": 49,
+                    "priceWeek": 300
+                },
+                {
+                    "type": "RV",
+                    "name": "Full Service - 30 Amp",
+                    "priceNight": 51,
+                    "priceWeek": 320
+                },
+                {
+                    "type": "RV",
+                    "name": "Full Service - Premium",
+                    "priceNight": 56,
+                    "priceWeek": 350
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Camping Cabin",
+                    "priceNight": 89,
+                    "priceWeek": 620
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Cabin",
+                    "priceNight": 145,
+                    "priceWeek": 855
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Cottage",
+                    "priceNight": 155,
+                    "priceWeek": 930
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 245-3227",
+                    "numType": "main"
+                }
+            ],
+            "website": "http://www.parkbridge.com/en-ca/rv-cottages/rondalyn-resort"
+        },
+        {
+            "name": "Willingdon Beach Municipal Campsite",
+            "city": "Powell River",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V8A 5T3",
+            "address": "4845 Marine Ave",
+            "lat": "49.847475",
+            "lon": "-124.531059",
+            "description": "We are an 83 site (RV and tenting), municipal campground on the ocean, in the heart of Powell River, on the Sunshine Coast of BC. We are located next to a park, playground and the beach. Surrounded by beautiful hiking and walking trails, there is lots to see and do!",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Laundry/Laundromat",
+                "Playground",
+                "Water Front",
+                "30 Amp Service",
+                "Restroom",
+                "Pets Welcome",
+                "Sewer on Site",
+                "Showers",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "sites": [
+                {
+                    "type": "Campsite",
+                    "name": "Tenting",
+                    "priceNight": 25.75
+                },
+                {
+                    "type": "RV",
+                    "name": "Unserviced",
+                    "priceNight": 27.50
+                },
+                {
+                    "type": "RV",
+                    "name": "Electric & Water",
+                    "priceNight": 30
+                },
+                {
+                    "type": "RV",
+                    "name": "Beachfront (without electricity)",
+                    "priceNight": 36
+                },
+                {
+                    "type": "RV",
+                    "name": "Full Hook Up",
+                    "priceNight": 38
+                },
+                {
+                    "type": "RV",
+                    "name": "Beachfront (with electricity)",
+                    "priceNight": 41.50
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(604) 485-2242",
+                    "numType": "main"
+                }
+            ],
+            "website": "http://www.willingdonbeach.ca"
+        },
+        {
+            "name": "'Ksan Campground",
+            "city": "Hazelton",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0J 1Y0",
+            "address": "1450 River Road",
+            "lat": "55.250028",
+            "lon": "-127.681219",
+            "description": "We here at the ‘Ksan Campground welcome guests with open arms. Come here for tenting and full-service sites. We are located near the Historical Pioneer Village of Hazelton and directly beside the Ksan Historic Museum and Village. Our small little town has various places for tourists to wander to and explore. Right down the street from us is the Tri-Town Theatre showing modern movies at competitive prices. Come stay with us! If you have questions, feel free to call or email us and we will help you.",
+            "amenities": [
+                 "30 Amp Service",
+                 "Dump/Sani Station",
+                 "Restroom",
+                 "Wifi",
+                 "Pets Welcome",
+                 "Pull-thrus",
+                 "Seasonal Campsites",
+                 "Sewer on Site",
+                 "Showers",
+                 "Water on Site",
+                 "Accepts Debit Cards",
+                 "Accepts Credit Cards",
+                 "Telephone",
+                 "Playground",
+                 "Snack Bar"
+             ],
+             "sites": [
+                 {
+                     "type": "Campsite",
+                     "name": "Dry Trailer",
+                     "priceNight": 20
+                 },
+                 {
+                     "type": "Campsite",
+                     "name": "Tenting Site",
+                     "priceNight": 20
+                 },
+                 {
+                     "type": "RV",
+                     "name": "Good Sam Full Service",
+                     "priceNight": 36
+                 },
+                 {
+                     "type": "RV",
+                     "name": "Full Service",
+                     "priceNight": 40
+                 }
+             ],
+             "phoneNumbers": [
+                 {
+                     "number": "(250) 842-5940",
+                     "numType": "main"
+                 },
+                 {
+                     "number": "(800) 663-4590",
+                     "numType": "toll-free"
+                 },
+                 {
+                     "number": "(250) 842-6364",
+                     "numType": "fax"
+                 }
+             ],
+            "website": "https://www.ksancampground.ca/"
+        },
+        {
+            "name": "4 All Seasons Resort",
+            "city": "Ladysmith",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V9G 1E6",
+            "address": "3464 Yellow Point Rd RR3",
+            "lat": "49.051077",
+            "lon": "-123.758092",
+            "description": "A family owned camping facility, situated on inside coast of Vancouver Island on the Cedar peninsula, covered by mature trees and bounded by beautiful rock beaches over 100 sites in a treed setting. 3 night minimum stay for long weekends.",
+            "amenities": [
+                "Restroom",
+                "Showers",
+                "Water on Site",
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Pool - Outdoor"
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 245-4243",
+                    "numType": "main"
+                },
+                {
+                    "number": "(250) 245-7757",
+                    "numType": "fax"
+                }
+            ],
+            "website": "https://4allseasons.camp.zone/"
+        },
+        {
+            "name": "Acacia Grove RV Park & Cabins",
+            "city": "Spences Bridge",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0K 2L0",
+            "address": "3814 Riverview Ave E",
+            "lat": "50.424613",
+            "lon": "-121.334670",
+            "description": "Located in the historic community of Spences Bridge, Acacia Grove RV Park & Cabins is situated on a lush setting overlooking the famous Thompson River. Our well-appointed duplex and triplex cabins are self-contained with air conditioning, fully-equipped kitchens, two or three beds, and picnic tables. All the cabins have fantastic views of the roaring river. The RV Park is situated on a landscaped setting surrounded by beautiful trees to provide shade. We offer full hookup, pull thru and tenting sites, accommodating to everyone\u2019s needs. For your convenience, free hot showers, flush toilets, and a laundromat is available for use. Also, a small convenience store, pay phones, game room, horseshoes, lawn bowling, volleyball and more are on-site. Our excellent location is ideal for sportsmen, families and nature lovers! Enjoy the Thompson River, famous for steelhead fishing, whitewater rafting and mountain sheep. Endless amount of outdoor activities to keep the family busy and fantastic weather to enjoy the outdoors.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Swimming Beach",
+                "Store",
+                "Fishing",
+                "Laundry/Laundromat",
+                "30 Amp Service",
+                "Restroom",
+                "Pets Welcome",
+                "Pull-thrus",
+                "Showers",
+                "Telephone",
+                "20 Amp Service",
+                "Water on Site",
+                "Winter Camping",
+                "Kitchenette",
+                "Non-smoking Rooms",
+                "TV In Rooms",
+                "Sewer on Site"
+            ],
+            "sites": [
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site 1-2 Poeple",
+                    "priceNight": 25
+                },
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site 3-4 Poeple",
+                    "priceNight": 37.50
+                },
+                {
+                    "type": "RV",
+                    "name": "Power/Water",
+                    "priceNight": 42
+                },
+                {
+                    "type": "RV",
+                    "name": "Power/Water/Sewer",
+                    "priceNight": 45
+                },
+                {
+                    "type": "Cabin",
+                    "name": "1 person",
+                    "priceNight": 70
+                },
+                {
+                    "type": "Cabin",
+                    "name": "2 people",
+                    "priceNight": 87.16
+                },
+                {
+                    "type": "Cabin",
+                    "name": "3 people",
+                    "priceNight": 117.26
+                },
+                {
+                    "type": "Cabin",
+                    "name": "4 people",
+                    "priceNight": 130.10
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 458-2227",
+                    "numType": "main"
+                },
+                {
+                    "number": "(800) 833-7508",
+                    "numType": "toll-free"
+                },
+                {
+                    "number": "(250) 458-2227",
+                    "numType": "fax"
+                }
+            ],
+            "website": "http://www.acacia-rvpark-cabins.com"
+        },
+        {
+            "name": "Airport Inn Motel & RV Park",
+            "city": "Quesnel",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V2J 5Y8",
+            "address": "3101 Highway 97 North",
+            "lat": "53.008519",
+            "lon": "-122.505467",
+            "description": "Full hook-up, pull-thru and tenting sites available. WiFi, laundry, playground, firepits, horseshoe pits and walking trails nearby.",
+            "amenities": [
+                "Accepts Credit Cards",
+                "Hiking",
+                "Horseshoes",
+                "Laundry/Laundromat",
+                "Playground",
+                "Pets Welcome",
+                "30 Amp Service",
+                "Restroom",
+                "Full RV Hookups",
+                "Wifi",
+                "Pull-thrus",
+                "Showers",
+                "Water on Site",
+                "Sewer on Site"
+            ],
+            "sites": [
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site 1-2 Poeple",
+                    "priceNight": 25
+                },
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site 3-4 Poeple",
+                    "priceNight": 37.50
+                },
+                {
+                    "type": "RV",
+                    "name": "RV Site 50 Amp",
+                    "priceNight": 45
+                },
+                {
+                    "type": "RV",
+                    "name": "RV Site 30 Amp",
+                    "priceNight": 40
+                },
+                {
+                    "type": "RV",
+                    "name": "RV Site 15 Amp",
+                    "priceNight": 35
+                },
+                {
+                    "type": "RV",
+                    "name": "RV Site 30 Amp",
+                    "priceNight": 35
+                },
+                {
+                    "type": "RV",
+                    "name": "RV Site 15 Amp",
+                    "priceNight": 30
+                },
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site 15 Amp",
+                    "priceNight": 25
+                },
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site",
+                    "priceNight": 20
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 992-5942",
+                    "numType": "main"
+                }
+            ],
+            "website": "http://www.airportinnRV.com"
+        },
+        {
+            "name": "Alamo Motel & RV Park",
+            "city": "Quesnel",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V2J 6L1",
+            "address": "4898 Edwards Road",
+            "lat": "52.831607",
+            "lon": "-122.419495",
+            "description": "21 sites with electrical hook-ups, pull thru sites. Flush toilets, showers, sewer and restaurant onsite. RV Park open seasonally. Water shut-off in October, weather dependent.",
+            "amenities": [
+                "Accepts Credit Cards",
+                "Restaurant",
+                "Pets Welcome",
+                "Restroom",
+                "Pull-thrus",
+                "Showers",
+                "Water on Site",
+                "Sewer on Site"
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 747-8683",
+                    "numType": "main"
+                },
+                {
+                    "number": "(250) 747-1334",
+                    "numType": "fax"
+                }
+            ]
+        },
+        {
+            "name": "Alder Bay RV Park & Marina",
+            "city": "Port McNeill",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0N 2R0",
+            "address": "1 Alder Bay Rd.",
+            "lat": "50.559418",
+            "lon": "-126.912129",
+            "description": "With a relaxed and family friendly atmosphere, we are a great location to get away from the hustle bustle and stress of daily life. At Alder Bay you're just as likely to meet up with a local island family from the nearby community of Port McNeill as you are to find yourself in a friendly conversation with RVers from Germany or Switzerland! Alder Bay Resort is ideally suited to be the focal point of your Northern Vancouver Island adventure. With 30 acres of private land including abundant walk-on waterfront Alder Bay RV Park and Marina welcomes you and your family! Our park includes over 100 fully-serviced and non-serviced RV and tent sites. We can accommodate everything from small pop-ups to the big rigs. On site are public washrooms, shower rooms, and laundry facilities. Our camp store is stocked with essentials, there is WiFi available for purchase plus firewood and propane is also available. We also have a sani-dump, potable water stations, boat wash station and picnic shelter all at your disposal. Alder Bay is your access to the Broughtons so take advantage of our protected marina with over 40 slips, fish cleaning station, boat launch facilities and ample parking and get out on the water and explore! We also have long term storage so come on up and leave your boat or RV here for safekeeping until your next visit. Don’t feel like cooking? Then come and enjoy our funky soul food at Roxy’s Diner! https://www.roxysdiner.ca. In addition to classic fare - burgers and fish & chips - you'll also find some tasty Mexican specialties - tacos, chilaquiles and more. Enjoy the sunset on our beautiful fully licensed patio on the seashore or take advantage of our take out service by ordering online at https://www.roxysdiner.ca/s/order. Call our office ( 250-956-4117) for all the details or check out our web page and book online at [https://www.alderbay.com/book-now.html](). Looking to add a little adventure to your stay with us? Check out some of our Alder Bay Adventures under our activities page on our website. Whale Watching, Fishing , Grizzly Bear Tours is just a few of the available options right from our bay! We welcome Canadian Winter Snowbirds with open arms.",
+            "amenities": [
+                 "Accepts Debit Cards",
+                 "Accepts Credit Cards",
+                 "Swimming Beach",
+                 "Boat Ramp/Launch",
+                 "Store",
+                 "Fishing",
+                 "Laundry/Laundromat",
+                 "Marina",
+                 "Water Front",
+                 "30 Amp Service",
+                 "Big Rig Friendly",
+                 "Restroom"
+             ],
+             "sites": [
+                 {
+                     "type": "Campsite",
+                     "name": "Non-serviced",
+                     "priceNight": 28
+                 },
+                 {
+                     "type": "RV",
+                     "name": "Full Service 15 & 20 Amp",
+                     "priceNight": 39
+                 },
+                 {
+                     "type": "RV",
+                     "name": "Full Service 30 Amp",
+                     "priceNight": 43
+                 },
+                 {
+                     "type": "RV",
+                     "name": "Full Service 15 & 20 Amp Oceanside",
+                     "priceNight": 46
+                 }
+             ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 956-4117",
+                    "numType": "main"
+                }
+            ],
+            "website": "http://www.alderbay.com/"
+        },
+        {
+            "name": "Aloha Trailer Park & Campground",
+            "city": "Abbotsford",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V4X 1V2",
+            "address": "29666 Fraser Hwy C-9",
+            "lat": "49.057464",
+            "lon": "-122.402338",
+            "description": "Full or partial RV hookups, tenting, coin showers, laundry, store with gas/propane and bus stop nearby. No fires permitted. Minutes from attractions and shopping centre. Weekly and off-season rates. Reservations not accepted, first come, first serve basis. Cash only.",
+            "amenities": [
+                "Laundry/Laundromat",
+                "Pets Welcome",
+                "30 Amp Service",
+                "Restroom",
+                "Pull-thrus",
+                "Sewer on Site",
+                "Showers",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(604) 856-2366",
+                    "numType": "main"
+                },
+                {
+                    "number": "(888) 801-2266",
+                    "numType": "toll-free"
+                }
+            ]
+        },
+        {
+            "name": "Alpine Meadows Resort",
+            "city": "Clearwater",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0E 1N0",
+            "address": "3400 Dunn Lake Road",
+            "lat": "51.511595",
+            "lon": "-120.129629",
+            "description": "Situated on the hilltop above Hallamore Lake, Alpine Meadows RV Park is just beyond the Resort\u2019s entrance, surrounded by the majestic forest in BC\u2019s beautiful Dunn Peak Provincial Park. Our RV sites provide guests with spacious asphalt pads and grass area to create a comfortable stay. Each of our 17 sites offer full hookup and a modern washroom and shower facility. All of our resort amenities are offered and a close walking distance from your site. Visit our Boathouse Restaurant during breakfast and dinner, and indulge in fresh cuisine made from local ingredients. During the evenings, relax at our Fireside Lounge and Barbecue Area. Take advantage of our boat and fishing equipment rentals for a day of fishing on Hallamore Lake. The kids will enjoy our outdoor Activity Centre that offers games, a ping pong table, playground, mega-size chess, and generous green area.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Business Center",
+                "Kayak Canoe/Kayak Rentals",
+                "Fishing",
+                "Golfing",
+                "Hiking",
+                "Horseback Riding",
+                "Laundry/Laundromat",
+                "Playground",
+                "Restaurant",
+                "Pets Welcome",
+                "30 Amp Service",
+                "50 Amp Service",
+                "Restroom",
+                "Full RV Hookups",
+                "Pull-thrus",
+                "Showers",
+                "Water on Site",
+                "Balcony",
+                "Kitchenette",
+                "Sewer on Site"
+            ],
+            "sites": [
+                {
+                    "type": "Chalet",
+                    "name": "1 Bedroom",
+                    "priceNight": 275
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Executive Log Home 3 Bedroom",
+                    "priceNight": 545
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Two Bedroom Family Log Home",
+                    "priceNight": 425
+                },
+                {
+                    "type": "RV",
+                    "name": "Recreational Vehicle Camping Site",
+                    "priceNight": 55
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 587-6368",
+                    "numType": "main"
+                },
+                {
+                    "number": "(866) 587-6368",
+                    "numType": "toll-free"
+                },
+                {
+                    "number": "(250) 587-6361",
+                    "numType": "fax"
+                }
+            ],
+            "website": "http://www.alpinemeadowsresort.com"
+        },
+        {
+            "name": "Anahim Lake Resort & RV Park",
+            "city": "Anahim Lake",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0L 1C0",
+            "address": "2799 Reed Rd",
+            "lat": "52.508235",
+            "lon": "-125.329592",
+            "description": "Anahim Lake Resort lies on the eastern slope of the Coastal Mountain region in BC's Chilcotin. Situated on the shore of Anahim Lake panoramic views of the mountains are a daily treat. The resort offers the vacationer Rustic Simplicity, top-notch down-home service and excellent fishing. Accommodations include cozy cabins, RV and lakeshore campsites. We also offer boat and motor rentals, trail riding, flight seeing, fly-in fishing, guided spring chinook salmon fishing, hiking and fish smoking; try wind surfing or you can just relax and watch the time go by. Casual dress is the norm not the exception.To make the most of your visit to our area, binoculars, cameras and fishing gear are essential.",
+            "amenities": [
+                "Accepts Credit Cards",
+                "Fishing",
+                "Hiking",
+                "Boat Rental",
+                "Restaurant",
+                "Wildlife Viewing",
+                "Pets Welcome",
+                "Dump/Sani Station",
+                "Restroom",
+                "Wifi",
+                "Showers",
+                "Water on Site",
+                "Non-smoking Rooms"
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 742-3242",
+                    "numType": "main"
+                },
+                {
+                    "number": "(800) 667-7212",
+                    "numType": "toll-free"
+                }
+            ],
+            "website": "http://www.anahimlakeresort.com"
+        },
+        {
+            "name": "Anmore Camp & RV Park",
+            "city": "Anmore",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V3H 4Y2",
+            "address": "3230 Sunnyside Rd.",
+            "lat": "49.321962",
+            "lon": "-122.855018",
+            "sites": "100 Sites",
+            "description": "Centrally located to Vancouver. Entrance to Buntzen Lake. Quiet. Park Setting. Security Gate. Full hookups. Firepits. Showers. Laundry. Store. Sports court. Canoeing. Fishing. Open by Appointment Oct - Mar 31.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Swimming Beach",
+                "Store",
+                "Fishing",
+                "Golfing",
+                "Laundry/Laundromat",
+                "Clubhouse",
+                "Pets Welcome",
+                "30 Amp Service",
+                "Restroom",
+                "Sewer on Site",
+                "Showers",
+                "Telephone",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "sites": [
+                {
+                    "type": "RV",
+                    "name": "Full Hookup – Under 31ft",
+                    "priceNight": 65
+                },
+                {
+                    "type": "RV",
+                    "name": "Full Hookup – 32ft & Over",
+                    "priceNight": 70
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(604) 469-2311",
+                    "numType": "main"
+                }
+            ],
+            "website": "http://www.anmorecamp-rv.ca"
+        },
+        {
+            "name": "Apple Beach RV Park",
+            "city": "Oliver",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0H 1T2",
+            "address": "915 Bulrush Road",
+            "lat": "49.204152",
+            "lon": "-119.540913",
+            "description": "Apple Beach is a small, family-run RV Park and campground. We operate a simple, pleasant RV Park on beautiful Tucelnuit Lake. Simply put, Apple Beach is a quiet, friendly park in a lovely location. One firepit on the beach. Big Rig Friendly sites shaded by mature willows. Quiet pets accepted. Rates on website. Trailer rentals available. Snowbird rates.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Swimming Beach",
+                "Laundry/Laundromat",
+                "Water Front",
+                "Seasonal Campsites",
+                "30 Amp Service",
+                "Dump/Sani Station",
+                "Restroom",
+                "Wifi",
+                "Pull-thrus",
+                "Sewer on Site",
+                "Showers",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "sites": [
+                {
+                    "type": "RV",
+                    "name": "RV - Site",
+                    "priceNight": 45,
+                    "priceWeek": 270,
+                    "priceMonth": 595
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 498-4501",
+                    "numType": "main"
+                },
+                {
+                    "number": "(855) 358-3287",
+                    "numType": "toll-free"
+                }
+            ],
+            "website": "http://www.applebeachrv.com/"
+        },
+        {
+            "name": "Apple Valley Orchard & RV Park",
+            "city": "Kelowna",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V1V 2E8",
+            "address": "1980 Union Rd.",
+            "lat": "49.927489",
+            "lon": "-119.432502",
+            "description": "RV Park in and around existing orchard groves of apples, peaches and cherries. Great valley view and close to all amenities. Very private and quiet. Nestled in the beauty of the Glenmore Valley, in the heart of the Okanagan Wine Country. 15 minutes to two lakes and a dozen golf courses. Weekly and monthly rates available.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Laundry/Laundromat",
+                "Playground",
+                "15 Amp Service",
+                "30 Amp Service",
+                "50 Amp Service",
+                "Big Rig Friendly",
+                "Dump/Sani Station",
+                "Restroom",
+                "Full RV Hookups",
+                "Wifi",
+                "Pets Welcome",
+                "Pull-thrus",
+                "Seasonal Campsites",
+                "Sewer on Site",
+                "Showers",
+                "Telephone",
+                "Water on Site",
+                "Winter Camping"
+            ],
+            "sites": [
+                {
+                    "type": "RV",
+                    "name": "Full Service 50 Amp",
+                    "priceNight": 50
+                },
+                {
+                    "type": "RV",
+                    "name": "Full Service 30 Amp",
+                    "priceNight": 45
+                },
+                {
+                    "type": "RV",
+                    "name": "Grey Water Sites 30 Amp",
+                    "priceNight": 40
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 763-9840",
+                    "numType": "main"
+                }
+            ],
+            "website": "http://www.applevalleyrv.ca"
+        },
+        {
+            "name": "Armstrong Kin RV Park",
+            "city": "Armstrong",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0E 1B0",
+            "address": "3311 Park Drive",
+            "lat": "50.446835",
+            "lon": "-119.201098",
+            "description": "Situated in the heart of Armstrong, Armstrong Kin RV Park offers landscaped sites with full hookups of 30 amp electricity, water and sewer. We offer some shaded and pull through sites for larger RVs. Stay connected during your trip with our WiFi. For your convenience and comfort we have clean, full washrooms which include free showers. We are conveniently located behind the fairgrounds and across the street from Memorial Park and Pool. Bring the whole family as they will be entertained throughout the day! Discover the beauty of this small farming town and its outdoor activities. Many farms and orchards decorate the landscape of Armstrong. Visit Wild Mountain Honey Farm and purchase tasty sweet honey, or pick delicious apples at Maw\u2019s Orchard. The kids will love Chickadee Ridge, Canada\u2019s largest miniature horse farm! Pet and meet the tiny horses and other farm animals.",
+            "amenities": [
+                "30 Amp Service",
+                "Dump/Sani Station",
+                "Restroom",
+                "Pets Welcome",
+                "Pull-thrus",
+                "Sewer on Site",
+                "Showers",
+                "Telephone",
+                "Water on Site"
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 546-4041",
+                    "numType": "main"
+                }
+            ]
+        },
+        {
+            "name": "Arosa Ranch",
+            "city": "Bridesville",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0H 1Y0",
+            "address": "1 Arosa Ranch Road Bridesville, BC V0H 1Y0",
+            "lat": "49.004353",
+            "lon": "-119.286285",
+            "description": "Just twenty kilometres from Osoyoos, BC, nestled in the rolling Okanagan hills and surrounded by wildlife, Arosa Ranch is a peaceful and picturesque getaway.  Our Bed & Breakfast Rooms, Cabins, and Campground/RV Park, are the perfect place for a quiet retreat to nature, a vacation with friends and family, or your next celebration, event or retreat.",
+            "amenities": [
+                 "Fishing",
+                 "Wifi",
+                 "Playground",
+                 "Swimming Beach",
+                 "Pool - Outdoor",
+                 "Water on Site",
+                 "Showers",
+                 "Kitchenette"
+             ],
+             "sites": [
+                 {
+                     "type": "B&B",
+                     "name": "Sumac Suite",
+                     "priceNight": 120
+                 },
+                 {
+                     "type": "B&B",
+                     "name": "Sagebrush Suite",
+                     "priceNight": 120
+                 },
+                 {
+                     "type": "Cabin",
+                     "name": "The Ponderosa",
+                     "priceNight": 120
+                 },
+                 {
+                     "type": "Cabin",
+                     "name": "The Whitetail",
+                     "priceNight": 120
+                 },
+                 {
+                     "type": "Campsite",
+                     "name": "Tent Site",
+                     "priceNight": 35
+                 },
+                 {
+                     "type": "RV",
+                     "name": "RV Campsite",
+                     "priceNight": 45
+                 }
+             ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 495-5043",
+                    "numType": "main"
+                }
+            ],
+            "website": "https://www.arosaranch.com/"
+        },
+        {
+            "name": "Arrowvale Riverside Campground and Cottages",
+            "city": "Port Alberni",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V9Y 9E8",
+            "address": "5955 Hector Rd.",
+            "lat": "49.281286",
+            "lon": "-124.866764",
+            "description": "Nestled on lush riverside grounds in beautiful Port Alberni, Arrowvale Riverside Campground & Cottages offers a traditional camping experience. With picturesque vistas surrounding our property, you\u2019ll find it easy to sit back and relax. Choose from one of our 40 campsites with many situated near the Somass River. We offer open and wooded sites with some being serviced and others unserviced. Our grounds have fantastic walking trails, swimming and fishing along the Somass River, a great way to spend the day with the whole family. Guests wanting to sleep indoors are treated to our charming cedar cottages with luxurious features. Relax under the vaulted wooden ceilings while sitting by the see-through gas fireplace. The cottage features one queen and a futon bed, sleeping up to four guests. Other amenities that guests are treated to include free showers, WiFi and restrooms. Seasonal services that are featured at our resort are a caf\u00e9, serving delicious baked goods, and free farm tours, where the kids will enjoy petting the farm animals.",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Swimming Beach",
+                "Store",
+                "Fishing",
+                "Handicap Accessible",
+                "Hiking",
+                "Laundry/Laundromat",
+                "Playground",
+                "Snack Bar",
+                "Water Front",
+                "30 Amp Service",
+                "Restroom",
+                "Wifi",
+                "Pets Welcome",
+                "Pull-thrus",
+                "Seasonal Campsites",
+                "Showers",
+                "Water on Site",
+                "Winter Camping",
+                "Fireplace",
+                "Kitchenette",
+                "Non-smoking Rooms",
+                "TV In Rooms"
+            ],
+            "sites": [
+                {
+                    "type": "RV",
+                    "name": "Power and Water",
+                    "priceNight": 39
+                },
+                {
+                    "type": "Cottage",
+                    "name": "Sagebrush Suite",
+                    "priceNight": 159,
+                    "priceWeek": 834
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 723-7948",
+                    "numType": "main"
+                },
+                {
+                    "number": "(250) 723-7948",
+                    "numType": "fax"
+                }
+            ],
+            "website": "http://www.arrowvale.ca"
+        },
+        {
+            "name": "Ashcroft Legacy Park Campground",
+            "city": "Ashcroft",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0K 1A0",
+            "address": "102 Railway Ave.",
+            "lat": "50.725871",
+            "lon": "-121.278359",
+            "description": "Camp in desert country on the shores of the Thompson River, next to downtown historic Ashcroft. Legacy Park provides a shady, relaxing oasis. Easy walking distance to downtown Ashcroft for shopping, restaurants and tourist attractions. The 15 site park offers washrooms, showers, laundry facilities and sani dump station. Sites have power, water and free WiFi.",
+            "amenities": [
+                 "Bike Trails",
+                 "Fishing",
+                 "Hiking",
+                 "Laundry/Laundromat",
+                 "Restroom",
+                 "Wifi",
+                 "Pets Welcome",
+                 "Showers",
+                 "Dump/Sani Station"
+             ],
+             "sites": [
+                 {
+                     "type": "RV",
+                     "name": "RV Site",
+                     "priceNight": 25,
+                     "priceMonth": 400
+                 },
+                 {
+                     "type": "Campsite",
+                     "name": "Tent Site",
+                     "priceNight": 10
+                 }
+             ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 453-2642",
+                    "numType": "main"
+                },
+                {
+                    "number": "(250) 453-9664",
+                    "numType": "fax"
+                }
+            ]
+        },
+        {
+            "name": "Bailey Bridge Campsite & Cabins",
+            "city": "Hagensborg",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0T 1H0",
+            "address": "Salloompt Rd",
+            "lat": "52.413164",
+            "lon": "-126.520087",
+            "description": "Your hosts, Keith and Val, invite you to enjoy your stay with us on the banks of the Bella Coola River. Whether it be secluded, wilderness or spacious campsites or cabins, all are available while you enjoy world class river fishing for salmon and trout or as a base for your hiking or touring adventures. Take advantage of the many hiking areas or utilize other services in the Valley such as ocean excursions, river drifting, nature tours or heli-hiking.",
+            "amenities": [
+                "Accepts Credit Cards",
+                "Swimming Beach",
+                "Boat Ramp/Launch",
+                "Store",
+                "Fishing",
+                "Hiking",
+                "Laundry/Laundromat",
+                "Restroom",
+                "Pull-thrus",
+                "Showers",
+                "Water on Site"
+            ],
+            "sites": [
+                {
+                    "type": "RV",
+                    "name": "Powered Site",
+                    "priceNight": 25
+                },
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site",
+                    "priceNight": 21
+                },
+                {
+                    "type": "Cabin",
+                    "name": "Cabin",
+                    "priceNight": 75
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 982-2342",
+                    "numType": "main"
+                },
+                {
+                    "number": "(250) 982-0056",
+                    "numType": "fax"
+                }
+            ],
+            "website": "http://www.baileybridge.ca"
+        },
+        {
+            "name": "Banbury Green RV & Camping Resort",
+            "city": "Kaleden",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0H 1K0",
+            "address": "930 Pineview Drive",
+            "lat": "49.413833",
+            "lon": "-119.604757",
+            "description": "Nestled away from the city noise, Banbury Green RV & Camping Resort is a peaceful destination for families wanting a fun and relaxing vacation. Our resort is a family-oriented campground with attractively kept lawns and flowerbeds. We have an abundance of shaded areas to stay cool during the warmer days. We accommodate for most RVs and tents, and all sites have electricity and water. Most of our sites are lakefront to maximize the breathtaking views. Picnic tables are at each site for families to eat their meals or play board games. We have plenty of open space for the kids to run around and ride their bikes. Enjoy the serene lake on our pedal boat and canoe rentals. We have a generous size grass area with a net for volleyball or badminton, a fun way for families to spend quality time. After a fun filled day visit our store and indulge the whole family to ice cream and other frozen treats!",
+            "amenities": [
+                "Accepts Debit Cards",
+                "Accepts Credit Cards",
+                "Swimming Beach",
+                "Boat Ramp/Launch",
+                "Fishing",
+                "Laundry/Laundromat",
+                "Water Front",
+                "30 Amp Service",
+                "Pets Welcome",
+                "Dump/Sani Station",
+                "Restroom",
+                "Pull-thrus",
+                "Sewer on Site",
+                "Showers",
+                "Telephone",
+                "Water on Site"
+            ],
+            "sites": [
+                {
+                    "type": "RV",
+                    "name": "RVs/Tent-Trailers/Campers/Vans",
+                    "priceNight": 45
+                },
+                {
+                    "type": "Campsite",
+                    "name": "Tent Site",
+                    "priceNight": 35
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 497-5221",
+                    "numType": "main"
+                },
+                {
+                    "number": "(250) 497-5221",
+                    "numType": "fax"
+                }
+            ],
+            "website": "http://www.banburygreen.com"
+        },
+        {
+            "name": "Barney's Lakeside Resort & Bistro",
+            "city": "Chilanko Forks",
+            "province": "British Columbia",
+            "country": "Canada",
+            "postalCode": "V0L 1H0",
+            "address": "3556 Puntzi Lake Road",
+            "lat": "52.167790",
+            "lon": "-124.070646",
+            "description": "Relax in the peace and quiet of the Chilcotin. Wildlife abounds with deer, moose, bear, wild horses, fox and numerous species of birds. A 12-acre lakeside resort, located on beautiful Puntzi Lake. The lake (approximately 11km lon and 5km. Fishing for wild rainbow trout and kokanee salmon. Hunting, wildlife viewing, hiking, mountain biking, ATVing, water and jet ski, swimming ice fishing and snowmobiling. We are halfway from Williams Lake to Bella Coola, make Barneys your Home Base and experience the Chilcotin.",
+            "amenities": [
+                 "Accepts Credit Cards",
+                 "ATV/Off-Road Trail",
+                 "Boat Ramp/Launch",
+                 "Canoe/Kayak Rentals",
+                 "Fishing",
+                 "Hiking",
+                 "Boat Rental",
+                 "Snowmobiling"
+             ],
+             "sites": [
+                 {
+                     "type": "Cabin",
+                     "name": "Cabin 1",
+                     "priceNight": 100
+                 },
+                 {
+                     "type": "Cabin",
+                     "name": "Cabin 2",
+                     "priceNight": 100
+                 },
+                 {
+                     "type": "Cabin",
+                     "name": "Cabin 3",
+                     "priceNight": 100
+                 },
+                 {
+                     "type": "Cabin",
+                     "name": "Cabin 4",
+                     "priceNight": 145
+                 },
+                 {
+                     "type": "Cabin",
+                     "name": "Cabin 5",
+                     "priceNight": 150
+                 },
+                 {
+                     "type": "RV",
+                     "name": "RV Lot",
+                     "priceNight": 40
+                 }
+             ],
+            "phoneNumbers": [
+                {
+                    "number": "(250) 481-1100",
+                    "numType": "main"
+                },
+                {
+                    "number": "(800) 578-6804",
+                    "numType": "toll-free"
+                },
+                {
+                    "number": "(250) 481-1180",
+                    "numType": "fax"
+                }
+            ],
+            "website": "https://www.barneyslakesideresort.com/"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+.site-name-wrap {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 19px;
+}
+
+.site-type {
+  font-size: 14px;
+  font-style: italic;
+  padding-bottom: 4px;
+  text-decoration: underline;
+  text-decoration-color: rgba(23, 126, 137, 1);
+
+}
+
+.site-name-wrap p{
+  margin: 0;
+
+}

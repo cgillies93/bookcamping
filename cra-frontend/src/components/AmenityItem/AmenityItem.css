@@ -1,0 +1,11 @@
+.amenity-item {
+    display: flex;
+}
+
+.amenity-item svg {
+    margin-right: 0.3em;
+}
+
+.amenity-item p {
+    margin: 0;
+}

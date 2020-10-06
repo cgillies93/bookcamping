@@ -1,0 +1,88 @@
+.final-details-page {
+    min-height: 85vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.final-details-wrap {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 75%;
+}
+
+.reservation-summary {
+    grid-column: 1;
+}
+
+.summary-checkin{
+    margin-bottom: 1em;
+}
+
+.summary-checkout {
+    margin-bottom: 2em;
+}
+
+.reservation-summary ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.reservation-summary p {
+    margin: 0;
+}
+
+.reservation-summary p + p {
+    font-size: 16px;
+    margin-top: 0.3em;
+}
+
+.reservation-summary h3 {
+    font-size: 25px;
+}
+
+.card-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.card-info-form {
+    width: 80%;
+}
+
+#name-on-card {
+    width: 50%;
+}
+
+#card-number {
+    width: 40%;
+}
+
+.card-expiry-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.expiry-year,
+.expiry-month,
+.card-cv {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.expiry-year {
+    margin: 0 50px;
+}
+
+.card-expiry-wrap select{
+    height: 30px;
+}
+
+#card-cv {
+    height: 23px;
+    width: 50px;
+    font-size: 18px;
+}

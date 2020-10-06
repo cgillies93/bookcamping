@@ -1,0 +1,28 @@
+.account-nav {
+    grid-column: 1;
+    width: 100%;
+    min-height: 83vh;
+    background: rgba(67, 62, 63, 0.8);
+    color: white;
+    padding: 8px 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.account-nav ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.account-nav li {
+    padding: 1em 0;
+}
+
+.account-nav li a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,6 @@
+.favorites-page {
+    text-align: center;
+    min-height: 85vh;
+    display: grid;
+    grid-template-columns: 18% 82%;
+}

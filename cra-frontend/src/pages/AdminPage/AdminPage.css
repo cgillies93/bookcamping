@@ -1,0 +1,65 @@
+.admin-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+.admin-page-content {
+    width: 80%;
+}
+
+.admin-panel-nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.admin-panel-nav li {
+    margin: 0 1em;
+}
+
+.admin-glance {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+}
+
+.glance-item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 0 1em;
+    padding: 0.5em;
+}
+
+.glance-item p{
+    margin: 0;
+}
+
+.top-campgrounds {
+    text-align: center;
+    width: 40%;
+}
+
+.top-campgrounds-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.top-campground-item {
+    display: flex;
+}
+
+.top-campground-col {
+    padding: 0.5em;
+}

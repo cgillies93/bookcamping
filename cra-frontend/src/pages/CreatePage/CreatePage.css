@@ -1,0 +1,200 @@
+.create-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.create-page p {
+    font-size: 14px;
+}
+
+.create-page h2 {
+    border-bottom: 6px solid rgba(23, 126, 137, 1);
+    width: 50%;
+    text-indent: 2px;
+}
+
+.create-page h2 {
+    margin-bottom: 0;
+}
+
+.form-wrapper {
+    width: 60%;
+}
+
+.form-wrapper label {
+    font-weight: bold;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1em 0;
+}
+
+.input-wrapper input {
+    padding: 0.3em;
+    font-size: 20px;
+}
+
+#campground-name {
+    width: 80%;
+}
+
+#campground-description {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.3em;
+}
+
+#campground-city {
+    width: 250px;
+}
+
+#campground-prov {
+    width: 150px;
+}
+
+#campground-country {
+    width: 75px;
+}
+
+#campground-address {
+    width: 50%;
+}
+
+#campground-postal {
+    width: 80px;
+}
+
+.phone-input-wrap {
+  display: flex;
+
+  align-items: center;
+}
+
+.phone-input-wrap select {
+  height: 40px;
+  margin-right: 1em;
+}
+
+#remove-phone {
+    height: 40px;
+    width: 30px;
+    margin: 1em;
+    font-weight: bold;
+    background: red;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+#campground-email {
+    width: 400px;
+}
+
+#campground-lat,
+#campground-lon {
+    width: 150px;
+}
+
+#create-sites {
+    display: flex;
+    justify-content: space-between;
+}
+
+#price-night,
+#price-week,
+#price-month {
+    width: 100px;
+}
+
+#site-avail {
+    width: 40px;
+}
+
+select {
+    font-size: 18px;
+    height: 60%;
+}
+
+#remove-site {
+    height: 40px;
+    width: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+    background: red;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+.amenity-avail {
+    display: none;
+    flex-direction: column;
+}
+
+.amen-avail-item {
+    display: flex;
+}
+
+.show-amenities {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.added-amenities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#toggle-amenity-list {
+    font-weight: bold;
+    color: rgba(23, 126, 137, 1);
+    background: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 0.5em 0;
+    width: 100px;
+    display: flex;
+    margin: 1em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-site,
+#add-phone-number {
+    font-weight: bold;
+    color: rgba(23, 126, 137, 1);
+    background: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 0.5em 0;
+    width: 100px;
+    display: flex;
+    margin: 1em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#create-campground {
+    font-weight: bold;
+    background: rgba(23, 126, 137, 1);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0.5em 0;
+    width: 200px;
+    display: flex;
+    margin: 2em auto;
+    justify-content: center;
+    align-items: center;
+}

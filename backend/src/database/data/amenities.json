@@ -1,0 +1,200 @@
+{
+  "amenities": [
+    {
+        "name": "Accepts Debit Cards"
+    },
+    {
+        "name": "Accepts Credit Cards"
+    },
+    {
+        "name": "Store"
+    },
+    {
+        "name": "Laundry/Laundromat"
+    },
+    {
+        "name": "Playground"
+    },
+    {
+        "name": "15 Amp Service"
+    },
+    {
+        "name": "20 Amp Service"
+    },
+    {
+        "name": "30 Amp Service"
+    },
+    {
+        "name": "50 Amp Service"
+    },
+    {
+        "name": "Dump/Sani Station"
+    },
+    {
+        "name": "Restroom"
+    },
+    {
+        "name": "Wifi"
+    },
+    {
+        "name": "Pets Welcome"
+    },
+    {
+        "name": "Fishing"
+    },
+    {
+        "name": "Pull-thrus"
+    },
+    {
+        "name": "Seasonal Campsites"
+    },
+    {
+        "name": "Sewer on Site"
+    },
+    {
+        "name": "Showers"
+    },
+    {
+        "name": "Telephone"
+    },
+    {
+        "name": "Water on Site"
+    },
+    {
+        "name": "Hottub"
+    },
+    {
+        "name": "Clubhouse"
+    },
+    {
+        "name": "Pool - Outdoor"
+    },
+    {
+        "name": "Restaurant"
+    },
+    {
+        "name": "Sauna"
+    },
+    {
+        "name": "Water Front"
+    },
+    {
+        "name": "Winter Camping"
+    },
+    {
+        "name": "Kitchenette"
+    },
+    {
+        "name": "Non-smoking Rooms"
+    },
+    {
+        "name": "Meeting Facilities"
+    },
+    {
+        "name": "Swimming Beach"
+    },
+    {
+        "name": "Boat Ramp/Launch"
+    },
+    {
+        "name": "Kayak Canoe/Kayak Rentals"
+    },
+    {
+        "name": "Full RV Hookups"
+    },
+    {
+        "name": "Big Rig Friendly"
+    },
+    {
+        "name": "Propane ($)"
+    },
+    {
+        "name": "Horseback Riding"
+    },
+    {
+        "name": "Bicycle rental Bike Rental"
+    },
+    {
+        "name": "Cross-Country Skiing"
+    },
+    {
+        "name": "Snowmobiling"
+    },
+    {
+        "name": "Wildlife Viewing"
+    },
+    {
+        "name": "Road Service"
+    },
+    {
+        "name": "Towing Service"
+    },
+    {
+        "name": "ATV/Off-Road Trail"
+    },
+    {
+        "name": "Business Center"
+    },
+    {
+        "name": "Non-smoking Rooms"
+    },
+    {
+        "name": "Marina"
+    },
+    {
+        "name": "Boat Rental"
+    },
+    {
+        "name": "Hiking"
+    },
+    {
+        "name": "Horseshoes"
+    },
+    {
+        "name": "Handicap Accessible"
+    },
+    {
+        "name": "Fireplace"
+    },
+    {
+        "name": "Balcony"
+    },
+    {
+        "name": "TV In Rooms"
+    },
+    {
+        "name": "Snack Bar"
+    },
+    {
+        "name": "Golfing"
+    },
+    {
+        "name": "Firepit On Site"
+    },
+    {
+        "name": "Close to Coast (within 15km)"
+    },
+    {
+        "name": "BBQ Grill"
+    },
+    {
+        "name": "Group Camping Area"
+    },
+    {
+        "name": "Potable Water"
+    },
+    {
+        "name": "Volleyball"
+    },
+    {
+        "name": "Community Kitchen"
+    },
+    {
+        "name": "Bar"
+    },
+    {
+        "name": "Bike Trails"
+    }
+
+  ]
+}
